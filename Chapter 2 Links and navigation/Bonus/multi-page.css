@@ -1,0 +1,140 @@
+/*styling for making the header large and centered*/
+.h1 {
+  text-align: center;
+  font-size: 450%;
+}
+/*styling for the body including the font-family, background color, and text color*/
+body {
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+  background: linear-gradient(to bottom, #1b1f2a, #3a0d26);
+  color: white;
+  padding-top: 1%;
+  overflow: hidden;
+  }
+/*styling for the heading position and size*/
+ h2 {
+  margin-left: 1%;
+  font-size: 200%;
+ }
+/*styling for the sections of the page including: color, rounded borders, width, and margins*/
+.plot-div, .key-info-div, 
+.characters-div, .creative-team-div {
+  background-color: #A40E4C;
+  border-radius: 10px;
+  width: 70%;
+  margin: 10%;
+  margin-left: 15%;
+  padding: 2%;
+}
+/*text alignment for the plot section*/
+.plot-div {
+  text-align: center;
+}
+/*styling for the key-information and character's section's heights and margins*/
+.key-info-div, 
+.characters-div {
+  height: 300px;
+  margin: 10%;
+  margin-bottom: 20%;
+
+}
+/*styling for the creative team section's height*/
+.creative-team-div{
+  height: 375px;
+}
+/*text alignment for the lists*/
+.creative-team, .info, .characters {
+  text-align: left;
+}
+/*left text alignments to the headings*/
+.creative-team h2, .info h2, .characters h2 {
+  text-align: left;
+}
+/*styling for the plot section's paragraph's alignment, size, width, and margins */
+.plot {
+  text-align: center;
+  margin-left: 10%;
+  font-size: 120%;
+  width: 80%;
+  padding-bottom: 1%;
+}
+
+/*styling to add spaces between lists*/
+.info {
+  margin-bottom: 3%;
+  margin-top: -0.5%;
+}
+/*adjusting the bottom margin*/
+.characters, .creative-team {
+  margin-bottom: 3%;
+}
+/*styling for the navigation bar's background color, position, and display*/
+.navbar {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1%;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  justify-content: center;
+  gap: 1.5%;
+  margin-left: 0%;
+}
+
+/*styling for the links in the navigation bar*/
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+/*hover effects on the navigation bar*/
+.navbar :hover {
+  font-size: 150%;
+  color: #ff4655;
+}
+/*effects when a link is pressed on the navigation bar*/
+.navbar :active {
+  color: blue;
+}
+/*styling for the button in the navigation bar*/
+.nav-button {
+  background-color: #61020a; /*background color*/
+  color: white; /*text color*/
+  margin-top: -0.3%; /*margins*/
+  margin-left:38%;
+  padding: 0.2% 1%; /*padding*/
+  border-radius: 10px; /*rounded borders*/
+  font-weight: bold; /*bold font*/
+  text-decoration: none; 
+  transition: background 0.3s;
+}
+/*hover effect on the button*/
+.nav-button:hover {
+  background-color: #e4525f; /* Darker red on hover */
+  color: whitesmoke;
+}
+/*styling for the reviews section's color, positions, border, height, and width*/
+.reviews-div {
+  padding: 1%;
+  background-color: #A40E4C;
+  border-radius: 10px;
+  width: 74%;
+  height: 485PX;
+  margin: 7%;
+  margin-left: 15%;
+}
+/*adjusting the width and margin spacing between the lists in the reviews sections*/
+.reviews-div li {
+  margin-bottom: 2%;
+  width: 97%;
+  margin-left: 0.7%;
+}
+
+/*allows for smooth scrolling when clicking a link in the navigation bar*/
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 20%;/*adds padding so no content is hidden behind the navigation bar*/
+}
