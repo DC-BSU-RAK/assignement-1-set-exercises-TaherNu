@@ -1,0 +1,138 @@
+/*background color for the entire page */
+body {
+  background-color: rgb(172, 206, 235);
+}
+/*navigation bar styles*/
+.navbar {
+    background: rgb(173, 235, 235);
+    padding: 1%;
+    padding-left: 5%;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    display: flex;
+    justify-content: left;
+    gap: 5%;
+    margin-left: -1%;
+  }
+/*navigation bar links style */
+  .navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+  }
+  /*navitgation bar hover effects*/
+  .navbar :hover {
+    font-size: 150%;
+    color: #ff4655;
+  }
+  /*navication bar active styles*/
+  .navbar :active {
+    color: white;
+  }
+/*smooth scrolling for anchors */
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10%;
+  }
+/*Page heading*/
+h1 {
+  text-align: center;
+  margin-top: 5%;
+}
+/*div1 - div10 have the same styles*/
+.div1, .div2, .div3, .div4,
+ .div5, .div6, .div7, .div8,
+  .div9, .div10{
+  margin: 2%;
+  margin-left: 25%;
+  padding: 0.5%;
+  border-radius: 10px;
+  width: 50%;
+  height: 450px;
+  font-size: 20px;
+  background-color: rgb(69, 185, 252);
+}
+/*headings in div1 - div10 have the same styles*/
+.div1 h3, .div2 h3, .div3 h3, .div4 h3, .div5 h3, 
+.div6 h3, .div7 h3, .div8 h3, .div9 h3, .div10 h3 {
+  font-weight: bolder;
+  font-size: 125%;
+  margin-left: 5%;
+}
+/*div1 - div10 paragraphs have the same styles*/
+.div1 p, .div2 p, .div3 p, .div4 p, .div5 p,
+.div6 p, .div7 p, .div8 p, .div9 p, .div10 p {
+  margin-left: 5%;
+  width: 80%;
+}
+
+/*content boxes inside div1 - div10 have the same styles*/
+.box1, .box2, .box3, .box4
+, .box5, .box6, .box7, .box8,
+ .box9, .box10 {
+  width: 90%;
+  background-color: rgb(212, 212, 212);
+  height: 275px;
+  margin-left: 3.5%;
+  padding: 1%;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+}
+/*example1 - example10 texts have the same styles*/
+.ex1, .ex2, .ex3, .ex4,
+ .ex5, .ex6, .ex7, .ex8,
+  .ex9, .ex10  {
+  font-size: 15px;
+}
+
+
+/*div11 - div21 have the same styles*/
+.div11, .div12, .div13, .div14, .div15,
+ .div16, .div17, .div18, .div19, .div20, 
+  .div21 {
+  padding: 0.5%;
+  margin: 3%;
+  margin-left: 25%;
+  border-radius: 10px;
+  width: 50%;
+  height: 450px;
+  background-color: rgb(69, 185, 252);
+  font-size: 20px;
+}
+/*headings inside div11 - div21 have the same styles*/
+.div11 h3, .div12 h3, .div13 h3, .div14 h3, .div15 h3, 
+.div16 h3, .div17 h3, .div18 h3, .div19 h3, .div20 h3, .div21 h3 {
+  font-weight: bolder;
+  margin-left: 5%;
+  font-size: 125%;
+}
+/*div11 - div21 paragraphs have the same styles*/
+.div11 p, .div12 p, .div13 p, .div14 p, .div15 p,
+.div16 p, .div17 p, .div18 p, .div19 p, .div20 p, .div21 p {
+  margin-left: 5%;
+  width: 80%;
+}
+/*content boxes inside div11 - div21 have the same styles*/
+.box11, .box12, .box13, .box14, .box15, .box16,
+ .box17, .box18, .box19, .box20, .box21 {
+  width: 90%;
+  background-color: rgb(212, 212, 212);
+  height: 280px;
+  margin-left: 3.5%;
+  padding: 1%;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+/*example11 - example21 texts have the same styles*/
+.ex11, .ex12, .ex13, .ex14, .ex15, 
+.ex16, .ex17, .ex18, .ex19, .ex20, .ex21  {
+  font-size: 15px;
+}
+
+
+
