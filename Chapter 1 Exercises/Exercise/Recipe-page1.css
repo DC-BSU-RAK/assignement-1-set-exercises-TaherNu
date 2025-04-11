@@ -1,0 +1,162 @@
+/* background color for the entire page*/
+body {
+    background-color: rgba(173, 198, 206, 0.389);
+}
+/*formats the left container*/
+.home-div {
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 2%;
+  margin-top: 8%;
+  height: 500px;
+  background-color: white;
+}
+/*heading format*/
+.h1 {
+  margin-left: 4%;
+    width: 90%;
+    font-size: 400%;
+    font-family: cursive;
+    padding-bottom: 10%;
+}
+/*formats description texxt under the heading*/
+.description {
+  width: 90%;
+    margin-top: -10%;
+    font-size: 150%;
+    margin-left: 4%;
+}
+/*aligns image to the right of the home section*/
+.pic {
+  width: 43%;
+  border-radius: 100px;
+  margin-left: 55%;
+  margin-top: -38%;
+}
+/*formats the ingredients container and places it on the left*/
+.ingredient-div {
+  border-radius: 20px;
+  width: 40%;
+  margin-left: 2%;
+  margin-top: -45%;
+  height: 550px;
+  background-color: white;
+}
+/*Ingredient heading*/
+.h2 {
+font-size: 450%;
+max-width: 60%;
+top: 5%;
+margin-left: 2%;
+border-bottom: 3px solid #16a085;
+}
+/*text for ingredients*/
+.ingredients {
+    margin-top: -5%;
+    font-size: 150%;
+    font-family: sans-serif;
+    width: 80%;
+    margin-left: 2%;
+}
+/* vertical space between content*/
+ul li {
+  margin-bottom: 0.5%;
+}
+/*image placed on the right side of the ingredients section*/
+.pic2 {
+    width: 44%;
+    border-radius: 100px;
+    margin-top: 3.5%;
+    margin-left: 55%;
+}
+/*formats the method container and places it on the left side*/
+.method-div {
+  border-radius: 20px;
+  width: 51%;
+  margin-left: 2%;
+  margin-top: -10%;
+  height: 600px;
+  background-color: white;
+}
+/*method heading format*/
+.method-heading {
+    font-size: 400%;
+    max-width: 24%;
+    font-family: cursive;
+    margin-top: -42%;
+    margin-left:  7%;
+    text-decoration: underline;
+}
+/*method text format*/
+.method {
+    font-size: 115%;
+    width: 85%;
+    padding-top: 14%;
+    margin-left: 3%;
+}
+/*vertical space between items in the list*/
+ol li {
+  padding-bottom: 1.5%;
+}
+/*navigation bar styles*/
+.navbar {
+    background-color: #1D2E35;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+/*navigation bar styles*/
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1%;
+    padding-left: 5%;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    display: flex;
+    justify-content: left;
+    gap: 3%;
+    margin-left: 0%;
+  }
+/*navigation bar link styles*/
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+  }
+  /*navigation bar hover effects*/
+  .navbar :hover {
+    font-size: 150%;
+    color: #ff4655;
+  }
+  /*navigation bar active effect*/
+  .navbar :active {
+    color: white;
+  }
+/*navigation button on the right side of the bar*/
+  .nav-button {
+    background-color: #61020a;
+    color: white;
+    margin-top: -0.3%;
+    margin-left:58%;
+    padding: 0.2% 1%;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  /*button hover effects*/
+  .nav-button:hover {
+    background-color: #e452c4; /* Darker red on hover */
+    color: rgb(245, 245, 245);
+  }
+/*smooth scroll for anchors*/
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10%;
+  }
