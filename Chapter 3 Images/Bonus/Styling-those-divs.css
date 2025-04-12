@@ -1,0 +1,44 @@
+/*these styles are applied to all the div elements*/
+div {
+    display: inline-block; /*let's the divs to sit next to eachj other in the page*/
+    font-family: sans-serif; /*font family*/
+    font-size: 20px; /*text size*/
+    margin: 25px; /*adding space around the divs using margin*/
+    border: 4px solid black; /*black border*/
+    line-height: 100px; /*vertical height of text lines*/
+    text-align: center; /*center alignment of text*/
+    width: 200px; /*width of the div*/
+    height: 200px; /*hieght of the div*/
+  }
+  /*styling the body of the page*/
+  body {
+    margin: 100px auto; /*adding top and bottom margins*/
+    width: max-content; /*the width will be as wide as the content inside it*/
+  }
+/*styling the first div*/
+  .A {
+    border-color: rgb(207, 10, 207); /*adding a pinkish purpler border color*/
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 2); /*adding a red shadow to the box*/
+  }
+/*styling the second div*/
+  .B {
+    border-color: rgb(2, 255, 2);/*adding a green border color*/
+    box-shadow: inset 10px 10px 15px rgba(0, 0, 0, 1); /*adding a dark shadow which is inside the box*/
+  }
+/* styling for the third div*/
+  .c {
+    border-color: orange;/*adding a orangle border color*/
+    border-radius: 25px; /*rounding the border edges*/
+    /*adding layers of different colors of shadows on the box*/
+    box-shadow:
+    0 0 0 10px rgb(40, 2, 255), /*blue*/
+    0 0 0 20px rgb(255, 2, 2), /*red*/
+    0 0 0 30px rgba(1, 91, 54, 0.848); /*green*/
+  }
+/*styling the fourth div*/
+  .D {
+    border-color: rgb(255, 72, 0); /*adding a orange - red border color*/
+    text-shadow: 4px 4px #0000007e; /*givng the text a slightly back shadow*/
+  }
+
+
