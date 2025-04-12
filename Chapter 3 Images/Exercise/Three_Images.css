@@ -1,0 +1,45 @@
+/*styling for the container holding all the images and their license*/
+.images {
+    display: flex; /*places the content inside the container in a row*/
+    justify-content: space-around; /*spaces the content inside the container evenly*/
+    gap: 1%; /*a gap between the images*/
+}
+/*adjusting the width of eacch container*/
+.image_box {
+    width: 27%;
+}
+/*styling the height, filters, border, and box shadow for the image*/
+.damian {
+    height: 82%;
+    filter: hue-rotate(20deg) contrast(130%) brightness(75%); 
+    border-radius: 10px;
+    box-shadow: 8px 8px 40px 2px #5171A5;
+}
+/*styling the height, filters, border, and box shadow for the image*/
+.bonsai {
+    height: 82%;
+    filter: contrast(140%) grayscale(20%) brightness(65%);
+    border-radius: 10px;
+    box-shadow: 18px 18px 40px 2px #5171A5;
+}
+/*styling the height, filters, border, and box shadow for the image*/
+.mountain {
+    height: auto;
+    filter: hue-rotate(50deg) contrast(110%) brightness(95%);
+    border-radius: 10px;
+    box-shadow: 8px 8px 40px 2px #5171A5;
+}
+/*adjusting the margin of all the paragraphs in the page*/
+p {
+    margin-top: 10px;
+}
+
+/*styling for the body of the page*/
+body {
+    color: white; /*white text color*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*font family*/
+    background-color: #0d1a2f; /*dark background color*/
+    text-align: center; /*center text alignment*/
+    overflow: hidden; /*disabling scroll bars*/
+}
+
