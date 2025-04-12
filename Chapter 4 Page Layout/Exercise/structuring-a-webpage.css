@@ -1,0 +1,150 @@
+/*this resets all default margins, padding, & box-sizing*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the header*/
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*simple and clean font*/
+    background-color: #17072b; /*dark background color*/
+    color: white; /*white text color*/
+    text-align: center; /*center alignment for the text*/
+    padding: 20px 0; /*adding vertical padding*/
+    font-size: 32px; /*text size*/
+    font-weight: bold; /*bold text*/
+    text-transform: uppercase; /*use uppercase for all the text*/
+    position: relative; /*positioning the header*/
+    text-decoration: underline; /*underlining the header*/
+}
+/*styles for the html and body*/
+html, body {
+    height: 100%; /*setting the height to 100% of the page*/
+    display: flex; 
+    flex-direction: column; /*stacks the header, body, and content vertically*/
+    font-family: Arial, Helvetica, sans-serif; /*font family*/
+}
+/*styling the container holding the content of the page*/
+.content {
+    display: flex; /*arranges everything inside the container horizontally*/
+    align-items: flex-start; /*aligns them at the top*/
+    margin: 0 auto; /*adjusting margins to allow the content to be centered*/
+    
+}
+
+/*styling the navigation bar*/
+.navbar {
+    margin-top: 7.2%; /*adjusting the top margin*/
+    background:#17072b; /*dark background*/
+    padding: 1%; /*adding padding inside the navigation bar*/
+    position: fixed;  /*allows the navigation bar to be visible even wehn scrolling*/
+    width: 100%; /*maximum width of the page*/
+    top: 0%;
+    left: 0%;
+    display: flex; /*displays the links in a row*/
+    justify-content: center; /*centers the links*/
+    gap: 2.5%; /* adds gaps between each link*/
+    margin-left: 0%; 
+  }
+  /*styling the navigation's bar links*/
+  .navbar a {
+    color: white; /*white text color*/
+    text-decoration: none; /*removes the underline*/
+    font-size: 175%; /*text size*/
+    transition: 0.3s; /*transition for when navigation bar is hovered or active*/
+  }
+  /*adding hover effects to the navigation bar*/
+  .navbar :hover {
+    font-size: 150%; /*text size*/
+    color: #ff4655; /*text color*/
+  }
+  /*adding effects when the navigation bar's links are pressed*/
+  .navbar :active {
+    color: blue; /*blue text color*/
+  }
+
+/*styling for all paragraphs in the page*/
+p {
+    width: 86%; /*width of the paragraphs*/
+    margin-left: 3%; /*adds space to the left of the paragraph*/
+    margin-bottom: 2%; /*adds space to the bottom of the paragraph*/
+    margin-top: 0%;
+    font-size: 20px; /*text size*/
+}
+/*styling for the second heading*/
+h2 {
+    text-decoration: underline; /*underline text*/
+    margin-top: 6%; /*adjusting the top margin to add space*/
+    font-weight: bolder; /*bold text*/
+    font-size:250%; /*text size*/
+    margin-left: 3%; /*adjusting left margin to add space*/
+    padding-bottom: 1%; /*adding padding inside the header */
+}
+/*styling for the image*/
+.code {
+    width: 100%; /*maximum width*/
+    margin-top: -1%;  /*adjusting top margin */
+    max-width: 840px; /*adding a maximum width*/
+    height: auto;  /*this maintains the aspect ratio of the image*/
+    margin-left: 3%; /*adjusting the left margin to add space to the left of the image*/
+
+}
+/*styling for the welcome section*/
+.welcome {
+    width: 90%; /*90% with of the page allowed*/
+}
+/*styling for the line up section*/
+.line-up {
+    background-color: #172d67; /*dark blue background color*/
+    color: #ffffff; /*white text color*/
+    margin-top: 4%; /*adjusting top margin to add space*/
+    margin-left: 0%;
+    height: 88.5%; /*adjusting height of the section*/
+    width: 52%;/*adjusting width of the section*/
+}
+/*styling for the line up section's heading*/
+.line-up h2 {
+    padding-left: 4%; /*adds spacing inside the header*/
+    margin-top: 4%; /*adjusting the top margin to add spacing between elements*/
+    font-size: 250%; /*text size*/
+    font-weight: bold; /*bold text*/
+}
+/*styling the line up section's unordered lists*/
+.line-up ul {
+    list-style:"- "; /*adds dash before the list items*/
+    padding-left: 10%; /*adds padding to the left of the list*/
+    font-size: 125%; /*text size*/
+    font-weight: bold; /*bold text*/
+}
+/*styling for the list items inside the line up section*/
+.line-up ul li {
+    margin-top: 5%; /*adjusting top margin to add spacing between elements*/
+    margin-bottom: 5%; /*adjusting bottom margins to add space between elements*/
+}
+/*styling the images section*/
+.images {
+padding-top: 2%; /*adds top padding*/
+margin-left: 7%; /*adjusting to add spacing between the left side*/
+display: flex; /*allows the images to be side by side*/
+margin-top: -10%; /*adjusting the top margin of the images*/
+gap: 0.5%; /*adding a gap between the images*/
+}
+/*styling the images inside the images section*/
+.images img {
+    object-fit: cover; /*allows image to fill container*/
+    margin: 5px; /*adjusting all margins of the images*/
+    margin-top: 13%; /*adjusting top margin of the images to add spacing between elements*/
+    width: 35%; /*width of the images*/
+    height: 20%; /*height of the images*/
+}
+/*styling the footer*/
+footer {
+    background-color: #7d26cd; /*purple background color*/
+    color: white; /*white text color*/
+    text-align: center; /*center text*/
+    padding: 10px 0; /*vertical padding*/
+    font-size: 14px; /*text size*/
+    width: 100%; /*max width */
+    margin-top: auto;
+}
