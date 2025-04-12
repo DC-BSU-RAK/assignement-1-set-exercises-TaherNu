@@ -1,0 +1,91 @@
+/*styling for the entire body*/
+body {
+    padding: 0; /*removes all default padding*/
+    margin: 0; /*removes all default margins*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*font family for the text*/
+}
+/*styling the header of the page*/
+header {
+    background-color: #054A91; /*blue background color*/
+    text-align: center; /*center text alignment for the text*/
+    color: white; /*white text color*/
+    padding: 2%; /*adds padding inside the header*/
+}
+/*styling for the navigation bar*/
+.navbar {
+    margin-top: 9%; /*adjusting the top margin to add spacing between the elements*/
+    background:#05478A; /*adds a blue background color*/
+    padding: 1%; /*adds padding inside the navigation bar*/
+    position: fixed; /*keeps the navigation bar fixed at the top of the screen*/
+    width: 100%;/*max width of the navigation bar*/
+    top: 0%; 
+    left: 0%; 
+    display: flex; /*arranges the links to be in a row*/
+    justify-content: center; /*centers the links*/
+    gap: 2.5%; /*adds gaps between the links*/
+    margin-left: 0%;
+}
+/*styling effects for the links*/
+.navbar a {
+    color: white; /*white text color*/
+    text-decoration: none; 
+    font-size: 175%; /*text size*/
+    transition: 0.3s; /*transition*/
+  }
+  /*styling the main content section*/
+ main {
+    display: flex; /*allows content inside this section to be side by side*/
+    gap: 10%; /*adds a gap between the content inside the section*/
+    padding: 8%; /*adds padding inside the section*/
+ }
+/*styling for the columns*/
+ .column {
+    margin-top: -2%; /*adjusting the top margin to add spacing for the elements*/
+    height: 370px; /*a fixed height for the columns*/
+    width: 37.5%; /*a fixed width for the columns*/
+    flex: none; 
+    background-color: #8DA9C4; /*light blue background color for all columns*/
+    border-radius:10px ; /*adds rounded borders to all columns*/
+    margin-left: -8%; /*adjusts the left margin to add spacing between the elements*/
+ }
+/*styling for the second header in the page*/
+ h2 {
+    margin-left: 5%; /*adjusting the left margin to add spacing between the elements*/
+    font-size: 200%; /*text size*/
+    font-weight: bold; /*bold text*/
+ }
+/*styling for the paragraphs in the page*/
+ p {
+    font-weight: bold; /*bold text*/
+    margin-left: 5%; /*adjusts the left margin to add space between the elements*/
+    font-size: 120%; /*text size*/
+ }
+/*styling the buttons*/
+ button {
+    padding: 2%; /*adds padding inside the button*/
+    background-color: #124E78; /*gives the buttons a dark blue background color*/
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.252); /*gives the buttons a shadow*/
+    color: white; /*white text color*/
+    border-radius: 5px; /*adds rounded edges to the buttons border*/
+    width: 25%; /*sets a fixed width for the buttons*/
+    margin-left: 5%; /*adjusts the left margin to add spacing between the elements*/
+ }
+/*adding hover effects to the button*/
+ button:hover {
+    cursor: pointer; /*changes cursor to a pointer when the button is hovered*/
+ }
+
+/*styling the footer*/
+  footer {
+    background-color: #03294F; /*dark blue background color*/
+    color: white; /*white text color*/
+    padding: 15px; /*adds padding inside the footer*/
+    margin-top: -6%; /*adjusts the top margin to add spacing between the elements*/
+    text-align: center; /*center aligns the text*/
+ }
+/*styling the body*/
+ body{
+    background-color: #a7c2dc43; /*adds a background color of light blue*/
+    overflow: hidden; /*hides the scroll bar and disables scrolling*/
+  }
+  
