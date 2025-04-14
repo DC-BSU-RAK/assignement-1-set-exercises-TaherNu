@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embedded Video</title>
+    <!--internal CSS style instead of a external css file-->
+    <style>
+      /*styling for the entire body of the page*/
+      body {
+        background-color: #ffbb00; /*oyellow background color*/
+      }
+      /*styling for the video*/
+      video {
+        margin-top: -3%; /*adjusts top margin to add spacing between elements*/
+        margin-left: 24%; /*adjusts left margin to center the video*/
+        max-width: 50%; /*max width of 50% of the page*/
+        max-height: 650%; /*max height of the video*/
+        border-radius: 10px; /*rounded border edges for the video*/
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*give a dark shadow to the video*/
+      }
+      /*styling the heading*/
+      h1 {
+        margin-left: 32%; /*centeres the heading*/
+        margin-top: 0;
+        padding: 5%; /*adding padding in the heading*/
+      }
+    </style>
+  </head>
+  <body>
+    <!--heading for the page-->
+    <h1>Invincible Season 1 Trailer</h1>
+    <!--poster image for the video-->
+    <video controls loop poster="invincible.jpg">
+      <!--video source and type-->
+      <source src="Trailer.mp4" type="video/mp4" />
+      <!--text for the browsers that dont support this video tag-->
+      Your browser does not support this video tag
+    </video>
+  </body>
+</html>
