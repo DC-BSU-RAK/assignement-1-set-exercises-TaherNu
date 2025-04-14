@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--title of the page-->
+    <title>Petrol Calculator</title>
+    <!--linking the external stylesheet to the html-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--container that holds all the content of the page-->
+    <div class="container">
+      <!--heading of the page-->
+      <h1>Petrol Calculator</h1>
+      <!--container that holds the input fields and a calculate button-->
+      <div class="wrapper">
+        <!--container for the petrol price input field-->
+        <div>
+          <label for="Petrol_Price"> Petrol Price Per Liter</label> <br />
+          <input type="number" id="Petrol_Price" value="1.72" step="0.15" />
+        </div>
+        <!--container for the liters added input field-->
+        <div>
+          <label for="liters">Litres added</label><br />
+          <input type="number" id="liters" value="0" step="0.2" />
+        </div>
+        <!--container for the calculate button-->
+        <div id="btn">
+          <!--button that calculates the total when clicked-->
+          <button onclick="calculate()">Calculate Total</button>
+        </div>
+      </div>
+      <!--displays the total amount calculated by the button-->
+      <div class="p-div">
+        <p>Total Amount:</p>
+        <p id="totalAmount">$0.00</p>
+      </div>
+    </div>
+    <!--links the javascript file to this html-->
+    <script src="index.js"></script>
+  </body>
+</html>

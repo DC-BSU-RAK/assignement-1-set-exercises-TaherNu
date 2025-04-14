@@ -1,0 +1,66 @@
+/*styling for the body*/
+body {
+    display: flex; /*display box is used to center content horizontally and vertically*/
+    justify-content: center;
+    align-items: center;
+    background-color: #e47070; /*red background color*/
+}
+/*styling the container*/
+.container {
+    width: 600px;  /*a set width for the container*/
+    height: 400px; /*a set height for the contianer*/
+    background-color: #445A6F; /*greyish background color*/
+    color: #FFFFFF; /*white text color*/
+    padding: 25px; /*padding inside the container*/
+    border-radius: 10px; /*rounded edges for the container*/
+    margin-top: 20px; /*adjusts top margin to add spacing*/
+}
+ /*styling for the container heading*/
+.container h1 {
+    display: flex; /*centers the heading using the flexbox*/
+    justify-content: center;
+     align-items: centre;
+    background-color: black; /*black background color*/
+    padding: 5px; /*padding inside the heading*/
+    border-radius: 130px; /*adds rounded edges to the heading*/
+}
+/*styling the wrapper containter*/
+.wrapper {
+    display: flex; /*using flexbox to arrange elements inside it horizontally*/
+    /*styling the div element inside the container to add margins on all sides*/
+    div{
+        margin:20px;
+
+    }
+}
+/*styling the button div */
+#btn{
+    margin-top: 20%; /*adds top margin to add spacing in between elements*/
+    margin-left: -63%; /*adjusts left margin to add spacing between elements*/
+    /*styling the button*/
+    button{
+        background-color: blue; /*blue background color*/
+        border-radius: 5px; /*adds rounded edges to the button*/
+        border: 2px solid black; /*black border color*/
+        font-size: 140%; /*text size*/
+    }
+/*adding hover effects to the button*/
+button:hover{
+    background-color: rgb(255, 0, 0); /*red background color when button is hovered*/
+}
+}
+/*styling the total amount paragraph*/
+#totalamount {
+    font-size: 20px; /*text size*/
+    font-weight: bold; /*bold text*/
+    margin-top: 0%; 
+    margin-left: 75%; /*adjusts margin to add spacing between elements*/
+}
+/*styles the paragraph div*/
+.p-div {
+    margin-top: -3%; /*adjusts the top margin to add spacing between elements*/
+    font-size: 120%; /*text size*/
+    margin-left: 0%; 
+    display: flex; /*uses flexbox to arrange the elements*/
+    gap: 1%; /*adds a gap*/
+}
